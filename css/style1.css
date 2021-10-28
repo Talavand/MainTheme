@@ -8518,8 +8518,8 @@ footer .item .copy-right p a {
     padding: 60px 30px;
   }
   .testimonials .item p {
-    margin-left: 0;
-    padding-left: 0;
+    margin-right: 0;
+    padding-right: 0;
     border: 0;
     font-size: 14px;
     font-weight: 500;
