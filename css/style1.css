@@ -47,11 +47,11 @@
 
 ---------------------------------------------------------------- */
 @font-face {
-    font-family: Shahab;
-	src:url('../fonts/Shahab/Shahab-Regular.woff2') format('woff2'),
-    url('../fonts/Shahab/Shahab-Regular.woff') format('woff'),
-    url('../fonts/Shahab/Shahab-Regular.oft') format('opentype') ,
-    url('../fonts/Shahab/Shahab-Regular.ttf') format('truetype');
+    font-family: Tanha;
+	src: url('../fonts/Tanha/Tanha-FD.eot');
+    src: url('../fonts/Tanha/Tanha-FD.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Tanha/Tanha-FD.woff') format('woff'),
+         url('../fonts/Tanha/Tanha-FD.ttf') format('truetype');
     font-weight: normal;
 }
 /* ====================== [ Start Typography  ] ====================== */
@@ -77,7 +77,7 @@ body {
   line-height: 1.5;
   font-weight: 400;
   overflow-x: hidden !important;
-  font-family: 'Shahab', sans-serif;
+  font-family: 'Tanha', sans-serif;
 }
 
 img {
@@ -141,7 +141,7 @@ a:hover, span:hover {
 }
 
 .custom-font {
-  font-family: 'Shahab', sans-serif;
+  font-family: 'Tanha', sans-serif;
 }
 
 .color-font {
