@@ -1207,9 +1207,18 @@ a:hover, span:hover {
   height: 6px;
   z-index: 10000001;
   background-color: #12c2e9;
-  -webkit-transition: width .3s ease-in-out, height .3s ease-in-out, margin .3s ease-in-out, opacity .3s ease-in-out;
-  -o-transition: width .3s ease-in-out, height .3s ease-in-out, margin .3s ease-in-out, opacity .3s ease-in-out;
-  transition: width .3s ease-in-out, height .3s ease-in-out, margin .3s ease-in-out, opacity .3s ease-in-out;
+  -webkit-transition: width .3s ease-in-out,
+ height .3s ease-in-out,
+ margin .3s ease-in-out,
+ opacity .3s ease-in-out;
+  -o-transition: width .3s ease-in-out,
+ height .3s ease-in-out,
+ margin .3s ease-in-out,
+ opacity .3s ease-in-out;
+  transition: width .3s ease-in-out,
+ height .3s ease-in-out,
+ margin .3s ease-in-out,
+ opacity .3s ease-in-out;
 }
 
 .cursor-inner.cursor-hover {
@@ -2896,9 +2905,12 @@ a:hover, span:hover {
   color: #fff;
   opacity: 0;
   visibility: hidden;
-  -webkit-transition: opacity .5s, visibility .5s;
-  -o-transition: opacity .5s, visibility .5s;
-  transition: opacity .5s, visibility .5s;
+  -webkit-transition: opacity .5s,
+ visibility .5s;
+  -o-transition: opacity .5s,
+ visibility .5s;
+  transition: opacity .5s,
+ visibility .5s;
 }
 
 .slider-bus .caption p {
@@ -6378,7 +6390,7 @@ a:hover, span:hover {
 
 .testimonials .arrows .next, .testimonials .arrows .prev {
   position: absolute;
-  top: 50%;
+  top: 90%;
   right: -50px;
   width: 50px;
   height: 50px;
@@ -6386,11 +6398,12 @@ a:hover, span:hover {
   text-align: center;
   font-size: 20px;
   border: 1px solid #eee;
-  border-radius: 50%;
+  border-radius: 40%;
   opacity: 0;
   -webkit-transition: all .4s;
   -o-transition: all .4s;
   transition: all .4s;
+  background: #0000008c;
 }
 
 .testimonials .arrows .next:hover, .testimonials .arrows .prev:hover {
@@ -6404,11 +6417,11 @@ a:hover, span:hover {
 
 .testimonials:hover .arrows .next, .testimonials:hover .arrows .prev {
   opacity: 1;
-  right: 17%;
+  right: 8%;
 }
 
 .testimonials:hover .arrows .prev {
-  left: 17%;
+  left: 8%;
 }
 
 .testimonials.lftstl .item {
