@@ -4409,7 +4409,7 @@ a:hover, span:hover {
   content: '';
   position: absolute;
   top: 0;
-  left: 0;
+  left: 1px;
   bottom: 0;
   right: 1px;
   background: #18191d;
