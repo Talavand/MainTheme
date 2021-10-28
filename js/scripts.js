@@ -725,7 +725,6 @@ $(window).scroll(function () {
 });
 
 
-
 /* ===============================  Swiper showcases with data  =============================== */
 
 

@@ -4408,7 +4408,7 @@ a:hover, span:hover {
 }
 
 .services.lficon .item-box .cont {
-  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .feat .items {
@@ -8492,7 +8492,7 @@ footer .item .copy-right p a {
     display: block;
   }
   .services.lficon .item-box .cont {
-    padding-left: 0;
+    padding-right: 0;
   }
   .min-area .content h4,
   .agency .content h4 {
