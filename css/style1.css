@@ -46,10 +46,17 @@
 
 
 ---------------------------------------------------------------- */
-
+/*
 @font-face {
     font-family: 'GanjNamehSans';
     src:  url('../fonts/Ganjnameh/GanjNamehSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+*/
+@font-face {
+    font-family: 'Dana';
+    src:  url('../fonts/Dana/dana-regular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
@@ -97,7 +104,7 @@ body {
   line-height: 1.5;
   font-weight: 400;
   overflow-x: hidden !important;
-  font-family: 'GanjNamehSans', sans-serif;
+  font-family: 'Dana', sans-serif;
 }
 
 img {
@@ -161,7 +168,7 @@ a:hover, span:hover {
 }
 
 .custom-font {
-  font-family: 'GanjNamehSans', sans-serif;
+  font-family: 'Dana', sans-serif;
 }
 
 .color-font {
