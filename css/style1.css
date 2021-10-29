@@ -99,12 +99,14 @@ html {
 }
 
 body {
+  caret-color: transparent;
   color: #fff;
   background: #111215;
   line-height: 1.5;
   font-weight: 400;
   overflow-x: hidden !important;
   font-family: 'Dana', sans-serif;
+  cursor: default;
 }
 
 img {
@@ -116,7 +118,10 @@ span, a, a:hover {
   display: inline-block;
   color: inherit;
 }
-
+input, textarea, form{
+	caret-color:white;
+	cursor:text;
+}
 h1 {
   font-size: 55px;
 }
@@ -149,7 +154,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   color: #a4a7b1;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 300;
   line-height: 2;
   margin: 0;
@@ -1513,8 +1518,8 @@ a:hover, span:hover {
 }
 
 .sec-head h6 {
-  font-weight: 300;
-  font-size: 25px;
+  font-weight: 600;
+  font-size: 35px;
   margin-bottom: 10px;
   direction:rtl;
 }
@@ -1587,7 +1592,7 @@ a:hover, span:hover {
 /* ====================== [  Start Button Style ] ====================== */
 .butn {
   padding: 15px 35px;
-  font-size: 13px;
+  font-size: 16px;
   border: 1px solid transparent;
   -webkit-transition: all .4s;
   -o-transition: all .4s;
@@ -2668,6 +2673,9 @@ a:hover, span:hover {
   z-index: 2;
   overflow: hidden;
 }
+.particles .container{
+	margin-top:-4%;
+}
 
 .particles .cont h1 {
   font-size: 90px;
@@ -2732,7 +2740,8 @@ a:hover, span:hover {
 }
 
 .freelancre .cont h1 {
-  font-size: 30px;
+  font-size: 32px;
+  text-align:right;
 }
 
 .freelancre .states {
@@ -4228,7 +4237,7 @@ a:hover, span:hover {
 .services.box .item-box {
   border: 0;
   border-radius: 15px;
-  background: rgba(255, 255, 255, 0.04);
+  background: rgba(255, 255, 255, 0.05);
 }
 
 .services.box .item-box .icon {
@@ -4727,7 +4736,8 @@ a:hover, span:hover {
 
 .clients .brands .item {
   text-align: center;
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius:10px;
   height: 160px;
   line-height: 160px;
 }
@@ -4837,7 +4847,7 @@ a:hover, span:hover {
 
 .portfolio .filtering .filter {
   padding: 15px;
-  background: rgba(255, 255, 255, 0.02);
+  background: rgba(255, 255, 255, 0.05);
   border-radius: 30px;
   display: inline-block;
 }
@@ -7632,7 +7642,7 @@ a:hover, span:hover {
   width: 100%;
   padding: 15px 0;
   border: 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   background: transparent;
   color: #fff;
   text-align:right;
@@ -8469,6 +8479,7 @@ footer .item .copy-right p a {
   .particles .cont h1 {
     font-size: 30px;
     font-weight: 700;
+	text-align:center;
   }
   .circle-slide .swiper-slide .bg-img {
     height: 280px !important;
@@ -8633,3 +8644,19 @@ footer .item .copy-right p a {
 }
 
 /* ====================== [ End Responsive ] ====================== */
+.testtest1 {
+	color: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+	background-image: -webkit-linear-gradient(92deg, #12c2e9, #c471ed, #f64f59);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-webkit-animation: hue 10s infinite linear;
+}
+
+@-webkit-keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
+}
