@@ -7300,7 +7300,7 @@ a:hover, span:hover {
 
 .blog-pg.single .comments-area .item .info .replay i {
   margin-right: 5px;
-  transition:scaleX(-1);
+  transform:scaleX(-1);
 }
 
 .blog-pg.single .comment-form {
