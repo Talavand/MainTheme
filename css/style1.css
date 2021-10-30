@@ -6367,9 +6367,9 @@ a:hover, span:hover {
   -webkit-transform: scale(0.8);
   -ms-transform: scale(0.8);
   transform: scale(0.8);
-  background: -webkit-linear-gradient(-323.53deg, #18191d 6.69%, rgba(2, 2, 30, 0) 85.43%);
-  background: -o-linear-gradient(-323.53deg, #18191d 6.69%, rgba(2, 2, 30, 0) 85.43%);
-  background: linear-gradient(-126.47deg, #18191d 6.69%, rgba(2, 2, 30, 0) 85.43%);
+  background: -webkit-linear-gradient(-323.53deg, #27282e 6.69%, rgba(2, 2, 30, 0) 85.43%);
+  background: -o-linear-gradient(-323.53deg, #27282e 6.69%, rgba(2, 2, 30, 0) 85.43%);
+  background: linear-gradient(-126.47deg, #27282e 6.69%, rgba(2, 2, 30, 0) 85.43%);
   -webkit-transition: all .4s;
   -o-transition: all .4s;
   transition: all .4s;
