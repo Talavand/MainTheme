@@ -6959,7 +6959,7 @@ a:hover, span:hover {
 }
 
 .blog-list .head a {
-  font-size: 14px;
+  font-size: 18px;
   margin-top: 40px;
   padding-bottom: 10px;
   position: relative;
@@ -7023,7 +7023,7 @@ a:hover, span:hover {
 }
 
 .blog-list .item .info span {
-  font-size: 12px;
+  font-size: 15px;
   color: #aaa;
 }
 
