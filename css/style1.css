@@ -8658,7 +8658,7 @@ footer .item .copy-right p a {
 
 /* ====================== [ End Responsive ] ====================== */
 .testtest1 {
-	background-image: linear-gradient(90deg, #12c2e9, #c471ed, #f64f59);
+	background-image: linear-gradient(90deg, #c471ed, #f64f59);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	-webkit-animation: hue 5s infinite ease;
