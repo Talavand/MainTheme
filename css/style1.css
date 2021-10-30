@@ -8644,18 +8644,16 @@ footer .item .copy-right p a {
 
 /* ====================== [ End Responsive ] ====================== */
 .testtest1 {
-	color: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
-	background-image: -webkit-linear-gradient(92deg, #12c2e9, #c471ed, #f64f59);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	-webkit-animation: hue 10s infinite linear;
+	-webkit-animation: hue 5s infinite linear;
 }
 
 @-webkit-keyframes hue {
   from {
-    -webkit-filter: hue-rotate(0deg);
+    background-image: linear-gradient(90deg, #12c2e9, #c471ed, #f64f59);
   }
   to {
-    -webkit-filter: hue-rotate(-360deg);
+    background-image: linear-gradient(270deg, #12c2e9, #c471ed, #f64f59);
   }
 }
