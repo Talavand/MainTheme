@@ -3244,7 +3244,7 @@ a:hover, span:hover {
   font-size: 30vw;
   font-weight: bold;
   color: transparent;
-  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.1);
+  -webkit-text-stroke: 4px rgba(255, 255, 255, 0.1);
   z-index: -1;
   position: absolute;
   width: 100%;
@@ -3253,6 +3253,7 @@ a:hover, span:hover {
   top: 0;
   text-align: center;
   opacity: .5;
+  letter-spacing:6px;
 }
 
 .static {
