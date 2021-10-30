@@ -7787,11 +7787,11 @@ footer .item li .img {
 }
 
 footer .item li .sm-post p {
-  font-size: 13px;
+  font-size: 15px;
 }
 
 footer .item li .sm-post .date {
-  font-size: 12px;
+  font-size: 15px;
   color: #12c2e9;
 }
 
@@ -7850,7 +7850,7 @@ footer .item .copy-right {
 }
 
 footer .item .copy-right p {
-  font-size: 13px;
+  font-size: 18px;
   font-weight: 300;
   text-align:right;
 }
