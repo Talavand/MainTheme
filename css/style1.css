@@ -1842,11 +1842,12 @@ a:hover, span:hover {
 }
 
 .navbar .logo {
-  width: 150px;
+  width: 100px;
 }
 .textlogo {
-    font-size: 38px;
-    font-weight: bold;
+    font-size: 32px;
+	font-weight: bolder;
+	font-style: oblique;
 }
 .nav-scroll {
   background: #1b1d21;
@@ -7924,7 +7925,7 @@ footer .item .copy-right p a {
   }
   .navbar .logo {
     margin-right: 15px;
-    width: 50px;
+    width: 100px;
   }
   .nav-scroll .navbar-collapse .nav-link,
   .light .navbar-collapse .nav-link {
@@ -8227,7 +8228,7 @@ footer .item .copy-right p a {
     bottom: 15px;
   }
   .navbar .logo {
-    width: 40px;
+    width: 100px;
   }
   .hamenu .menu-links .main-menu > li {
     font-size: 24px;
