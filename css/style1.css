@@ -1675,7 +1675,7 @@ a:hover, span:hover {
   height: 100%;
   background: rgba(255, 255, 255, 0.05);
   position: absolute;
-  left: 0;
+  right: 0;
   top: 0;
 }
 
@@ -7086,6 +7086,7 @@ a:hover, span:hover {
   width: -moz-max-content;
   width: max-content;
   text-align: center;
+  direction:ltr;
 }
 
 .blog-pg .posts .pagination span {
