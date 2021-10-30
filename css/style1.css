@@ -8650,10 +8650,37 @@ footer .item .copy-right p a {
 }
 
 @-webkit-keyframes hue {
-  from {
+  0% {
     background-image: linear-gradient(90deg, #12c2e9, #c471ed, #f64f59);
   }
-  to {
+  10% {
+    background-image: linear-gradient(126deg, #12c2e9, #c471ed, #f64f59);
+  }
+  20% {
+    background-image: linear-gradient(162deg, #12c2e9, #c471ed, #f64f59);
+  }
+  30% {
+    background-image: linear-gradient(198deg, #12c2e9, #c471ed, #f64f59);
+  }
+  40% {
+    background-image: linear-gradient(234deg, #12c2e9, #c471ed, #f64f59);
+  }
+  50% {
     background-image: linear-gradient(270deg, #12c2e9, #c471ed, #f64f59);
+  }
+  60% {
+    background-image: linear-gradient(234deg, #12c2e9, #c471ed, #f64f59);
+  }
+  70% {
+    background-image: linear-gradient(198deg, #12c2e9, #c471ed, #f64f59);
+  }
+  80% {
+    background-image: linear-gradient(162deg, #12c2e9, #c471ed, #f64f59);
+  }
+  90% {
+    background-image: linear-gradient(126deg, #12c2e9, #c471ed, #f64f59);
+  }
+  100% {
+    background-image: linear-gradient(90deg, #12c2e9, #c471ed, #f64f59);
   }
 }
