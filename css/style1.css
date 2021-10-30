@@ -1842,9 +1842,12 @@ a:hover, span:hover {
 }
 
 .navbar .logo {
-  width: 50px;
+  width: 150px;
 }
-
+.textlogo {
+    font-size: 38px;
+    font-weight: bold;
+}
 .nav-scroll {
   background: #1b1d21;
   border-color: #333538;
