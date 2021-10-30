@@ -155,7 +155,6 @@ h1, h2, h3, h4, h5, h6 {
 p {
   color: #a4a7b1;
   font-size: 18px;
-  font-weight: 300;
   line-height: 2;
   margin: 0;
   direction:rtl;
@@ -1405,6 +1404,7 @@ a:hover, span:hover {
 [data-overlay-light] .container {
   position: relative;
   z-index: 2;
+  direction:rtl;
 }
 
 [data-overlay-dark]:before,
@@ -1448,6 +1448,7 @@ a:hover, span:hover {
 .bg-color h6,
 .bg-color span {
   color: #fff;
+  text-align:right;
 }
 
 [data-overlay-dark] p,
@@ -1478,7 +1479,7 @@ a:hover, span:hover {
 
 [data-overlay-dark="4"]:before,
 [data-overlay-light="4"]:before {
-  opacity: .4;
+  opacity: .6;
 }
 
 [data-overlay-dark="5"]:before,
@@ -1528,7 +1529,7 @@ a:hover, span:hover {
 
 .sec-head h3 {
   font-size: 48px;
-  font-weight: 500;
+  font-weight: 1000;
   direction:rtl;
 }
 
@@ -2691,7 +2692,7 @@ a:hover, span:hover {
 
 .particles .cont h1 {
   font-size: 90px;
-  font-weight: 400;
+  font-weight: 700;
 }
 
 .particles .animation-wrapper {
@@ -3175,26 +3176,35 @@ a:hover, span:hover {
 }
 
 .page-header.proj-det.bg-img .item h6 {
-  font-size: 13px;
+  font-size: 17px;
   font-weight: 600;
   margin-bottom: 10px;
 }
 
 .page-header.proj-det.bg-img .item p {
   font-weight: 400;
-  font-size: 12px;
+  font-size: 15px;
+  text-align:right;
 }
 
 .page-header.proj-det.bg-img .item p a {
   margin: 0 7px;
+  
 }
 
 .page-header.proj-det.bg-img .item p a:first-of-type {
-  margin-left: 0;
+  margin-right: 0;
 }
 
 .page-header.proj-det.bg-img .item p a:last-of-type {
-  margin-right: 0;
+  margin-left: 0;
+}
+.proj-det h6{
+	font-size:27px;
+	font-weight:700;
+}
+.proj-det h2{
+	font-size:35px;
 }
 
 .page-header.proj-det .img-wrapper {
@@ -4133,6 +4143,10 @@ a:hover, span:hover {
   font-size: 28px;
   font-weight: 500;
 }
+.intro-section {
+	direction:rtl;
+	text-align:right;
+}
 
 .intro-section .htit span {
   font-size: 17px;
@@ -4294,6 +4308,8 @@ a:hover, span:hover {
 .services .item-box h6 {
   line-height: 1.8;
   margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 600;
 }
 
 .services .rone > div {
@@ -4865,7 +4881,6 @@ a:hover, span:hover {
 }
 
 .portfolio .filtering span {
-  font-weight: 500;
   font-size: 15px;
   margin: 0 20px;
   cursor: pointer;
@@ -5001,13 +5016,13 @@ a:hover, span:hover {
 
 .portfolio .gallery .items .cont h6 {
   font-weight: 600;
+  font-size:20px;
   margin-bottom: 5px;
 }
 
 .portfolio .gallery .items .cont span {
   color: #999;
-  font-weight: 400;
-  font-size: 13px;
+  font-size: 16px;
 }
 
 .portfolio .gallery .items .cont span a {
@@ -6026,14 +6041,14 @@ a:hover, span:hover {
   margin-top: 20px;
   font-size: 15px;
   font-weight: 300;
-  padding-left: 20px;
+  padding-right: 20px;
   position: relative;
 }
 
 .smp-list li:after {
   content: '';
   position: absolute;
-  left: 0;
+  right: 0;
   top: 50%;
   width: 5px;
   height: 1px;
@@ -6115,11 +6130,11 @@ a:hover, span:hover {
   z-index: 2;
 }
 .team .item.cir .info h6{
-	font-size:20px;
+	font-size:24px;
 }
 
 .team .item.cir .info span {
-  font-size: 15px;
+  font-size: 20px;
   color: #12c2e9;
 }
 
@@ -8355,7 +8370,7 @@ footer .item .copy-right p a {
     font-size: 30px;
   }
   .sec-head h6 {
-    font-size: 15px;
+    font-size: 40px;
   }
   .agency .imgsec .exp {
     margin-bottom: 15px;
@@ -8522,7 +8537,7 @@ footer .item .copy-right p a {
     font-size: 20px;
   }
   .sec-head h3 {
-    font-size: 20px;
+    font-size: 24px;
   }
   .sec-head h2 {
     font-size: 55px;
@@ -8659,6 +8674,12 @@ footer .item .copy-right p a {
   .services.lficon .item-box.no-curve{
 	  text-align:center;
   }
+  .secondabout .sec-head{
+		text-align:center;
+	}
+	.secondabout .item{
+		text-align:center;
+	}
 }
 
 /* ====================== [ End Responsive ] ====================== */
